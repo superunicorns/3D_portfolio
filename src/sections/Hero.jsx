@@ -1,3 +1,4 @@
+import Button from "../components/Button";
 import { words } from "../constants";
 
 const Hero = () => {
@@ -9,6 +10,7 @@ const Hero = () => {
 
       <div className="hero-layout">
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
+          {/* ------- Left Hero Content ------- */}
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
@@ -25,6 +27,8 @@ const Hero = () => {
               <h1>into Real Projects</h1>
               <h1>that Deliver Results</h1>
             </div>
+            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">Hi, I'm Adrian, a developer based in Croatia with a passion for code.</p>
+            <Button className="md:w-80 md:h-16 w-60 h-12" id="button" text="See my work" />
           </div>
         </header>
       </div>
