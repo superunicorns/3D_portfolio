@@ -9,6 +9,9 @@ it's a 3D model portfolio application
 - Tailwind
 - EmailJs
 
+### Live Demo
+[demo](https://3-d-portfolio-eight-delta.vercel.app/)
+
 ### Available Scripts
 
 First of all clone this repository.
